@@ -1,64 +1,59 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: darkslategray;
-}
+  background-color: #1C1C1C; }
+
+header {
+  padding-top: 2rem; }
+
+footer {
+  background-color: black;
+  padding-top: 1rem; }
+
+main {
+  font-family: 'Roboto', sans-serif; }
 
 .textFix {
-    text-align: end;
-}
-.textFix h1 {
-    padding-top: 4rem;
-}
-h1 {
-    font-size: 4rem;
-}
-h2 {
-    font-size: 4rem;
-}
-.textFix p {
-    font-size: 20px;
-}
-@media (max-width:992px) {
-    .textFix {
-        text-align: center;
-    }
-    h1 {
-        font-size: 3rem;
-        font-weight: bold;
-    }
-    h2 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    .textFix p {
-        font-size: 18px;
-    }
-}
-.textFix1 {
-    text-align: start;
-}
-.textFix1 p {
-    font-size: 20px;
-}
-@media (max-width:992px) {
-    .textFix1 {
-        text-align: center;
-        padding-top: 2rem;
-    }
-    .textFix1 h2 {
-        font-size: 2rem;
-    }
-    .textFix1 p {
-        font-size: 16px;
-    }
-}
+  text-align: end; }
+  .textFix p {
+    font-size: 20px; }
 
+.textFix1 {
+  text-align: start; }
+  .textFix1 p {
+    font-size: 20px; }
+
+.textFix h1 {
+  padding-top: 4rem; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 4rem; }
+
+@media (max-width: 992px) {
+  .textFix {
+    text-align: center; }
+    .textFix p {
+      font-size: 16px; }
+  h1 {
+    font-size: 3rem;
+    font-weight: bold; }
+  h2 {
+    font-size: 2rem;
+    font-weight: bold; } }
+
+@media (max-width: 992px) {
+  .textFix1 {
+    text-align: center;
+    padding-top: 2rem; }
+    .textFix1 p {
+      font-size: 16px; }
+  .textFix1 h2 {
+    font-size: 2rem; } }
 
 .sobreNos {
-    padding-top: 5rem;
-}
-@media (max-width:992px) {
-    .sobreNos {
-        padding-top: 5rem;
-    }
-}
+  padding-top: 5rem; }
+
+@media (max-width: 992px) {
+  .sobreNos {
+    padding-top: 5rem; } }
