@@ -31,7 +31,7 @@ h1 {
   font-size: 4rem; }
 
 h2 {
-  font-size: 4rem; }
+  font-size: 3rem; }
 
 @media (max-width: 992px) {
   .textFix {
@@ -60,3 +60,73 @@ h2 {
 @media (max-width: 992px) {
   .sobreNos {
     padding-top: 5rem; } }
+
+
+
+div.carrousel-container {
+    display: none
+}
+
+@media screen and (max-width:768px){
+    div.carrousel-container {
+        display: block;
+        padding: 10px 15px 10px 10px;
+        margin: 5px;
+    }
+    div.gallery-container {
+        display: none;
+    }
+}
+
+
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+.banner {
+  background-image: url(../images/dolomiti-unesco-1024x410.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner1 {
+  background-image: url(../images/pexels-christian-heitz-842711.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner2 {
+  background-image: url(../images/lago-di-como-13-696x465.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner3 {
+  background-image: url(../images/lago-di-braies-30.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sombreado {
+  text-shadow: 0px 3px #333333;
+}
+
+.imagen {
+  width: 750px;
+}
